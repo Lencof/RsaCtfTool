@@ -3,10 +3,11 @@
 
 import logging
 from pathlib import Path
+import os
 import sys
 from lib.utils import sageworks
 
-
+# create class AbstractAttack(object):
 class AbstractAttack(object):
     speed_enum = {"slow": 0, "medium": 1, "fast": 2}
 
