@@ -6,7 +6,7 @@ import subprocess
 from lib.keys_wrapper import PrivateKey
 from lib.utils import rootpath
 
-
+# create class Attack (AbstractAttack):
 class Attack(AbstractAttack):
     def __init__(self, timeout=60):
         super().__init__(timeout)
