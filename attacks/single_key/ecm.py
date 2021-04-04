@@ -6,7 +6,7 @@ import subprocess
 from lib.keys_wrapper import PrivateKey
 from lib.utils import rootpath
 
-
+# create class Attack(AbstractAttack):
 class Attack(AbstractAttack):
     def __init__(self, timeout=60, ecmdigits=25):
         super().__init__(timeout)
@@ -60,9 +60,10 @@ class Attack(AbstractAttack):
                     return (None, None)
             return (None, None)
         except KeyboardInterrupt:
-            pass
+            pass # ane empty block
         return (None, None)
 
+    # crate def test(self):
     def test(self):
         from lib.keys_wrapper import PublicKey
 
